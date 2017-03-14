@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: lightgreen; }
+  body p {
+    text-align: center;
+    color: purple;
+    font-size: 28px;
+    background: pink; }
+  body div {
+    background: skyblue; }

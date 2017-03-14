@@ -1,0 +1,254 @@
+body, .message3 .produce section aside img {
+  width: 100%;
+  height: 100%; }
+
+.message3 .produce section {
+  display: -webkit-flex; }
+
+.message3 .produce section aside, .message3 .produce section article {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center; }
+
+.message1 .center, .message1 .center li, .message1 .right {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.message3 .produce, .message3 .produce section article {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: "Microsoft YaHei"; }
+  body p {
+    color: #757575; }
+
+h2 {
+  font-size: 18px;
+  font-weight: bold; }
+
+.wrap {
+  width: 80%;
+  height: auto;
+  background: white;
+  margin: 0 auto;
+  margin-top: 100px; }
+
+/*nav*/
+.nav1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 0 10%; }
+
+.navbar {
+  background: #0097cf;
+  border: none; }
+  .navbar .navbar-nav li a {
+    color: white; }
+  .navbar .navbar-header img {
+    margin-top: -8px; }
+  .navbar .navbar-header a {
+    color: white; }
+  .navbar .navbar-header .user {
+    font-size: 14px; }
+  .navbar .navbar-header .exit {
+    font-size: 14px;
+    color: #d5d5d5; }
+
+.navbar1 {
+  background: white;
+  box-shadow: none; }
+  .navbar1 .navbar-header a {
+    color: #6bb6dc; }
+  .navbar1 .form-group {
+    position: relative; }
+    .navbar1 .form-group .cha {
+      background: #f7b213; }
+    .navbar1 .form-group .form-control {
+      width: 428px; }
+    .navbar1 .form-group .search {
+      position: absolute;
+      left: 15px;
+      top: 10px;
+      color: #dfdfe1; }
+
+.message1 {
+  width: 100%;
+  height: 222px;
+  margin: 25px 0;
+  padding: 0 18px;
+  display: flex; }
+  .message1 .left {
+    flex: 2; }
+    .message1 .left dl {
+      width: 188px;
+      height: 222px; }
+      .message1 .left dl dt {
+        width: 188px;
+        height: 188px;
+        border: 1px solid #d5d5d5;
+        border-radius: 5px; }
+        .message1 .left dl dt img {
+          width: 100%;
+          height: 100%; }
+      .message1 .left dl dd {
+        margin: 0;
+        bottom: 0;
+        text-align: center; }
+  .message1 .center {
+    flex: 4;
+    height: 188px;
+    margin: 0 25px 0 80px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fcfcfe; }
+    .message1 .center h4 {
+      margin: 0; }
+    .message1 .center li {
+      width: 50px;
+      float: left;
+      margin: 10px 28px 0 0;
+      padding: 2px 5px;
+      box-sizing: content-box; }
+  .message1 .right {
+    flex: 4;
+    height: 188px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fcfcfe;
+    position: relative; }
+    .message1 .right .span {
+      width: 20px;
+      height: 20px;
+      background: #f4c600;
+      border-radius: 50%;
+      display: block;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      line-height: 20px;
+      text-align: center;
+      color: white; }
+    .message1 .right h4 {
+      margin: 0;
+      color: #0097cf;
+      border-bottom: 1px dashed #d5d5d5;
+      line-height: 30px; }
+    .message1 .right li {
+      width: 65px;
+      float: left;
+      margin: 15px 28px 0 0;
+      border: 1px solid #d5d5d5;
+      border-radius: 5px;
+      padding: 2px 8px;
+      box-sizing: content-box;
+      position: relative;
+      background: #f0f0f0; }
+      .message1 .right li i {
+        margin-right: 10px; }
+    .message1 .right input {
+      position: absolute;
+      bottom: 0;
+      right: 10px; }
+    .message1 .right .add {
+      color: #0097cf;
+      border: 1px solid #0097cf;
+      background: white; }
+
+.message2 {
+  width: 90%;
+  height: auto;
+  padding: 0 18px;
+  position: relative; }
+  .message2 .nav2 {
+    margin: -30px 0 0 0;
+    position: absolute;
+    right: -10%; }
+    .message2 .nav2 li {
+      width: 140px;
+      font-size: 18px;
+      background: #f8f8f8;
+      border: 1px solid #e6e6e6;
+      border-left: none; }
+      .message2 .nav2 li:nth-child(1) {
+        color: #0097cf;
+        border-top: 2px solid #0097cf;
+        border-radius: 6px; }
+  .message2 h2 {
+    border-bottom: 1px dashed #e6e6e6;
+    text-shadow: 6px 10px 6px white; }
+  .message2 .table tbody {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+    .message2 .table tbody tr {
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
+      .message2 .table tbody tr td {
+        border: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; }
+  .message2 .table1 {
+    width: 60%;
+    display: flex; }
+    .message2 .table1 tbody {
+      width: 100%;
+      flex: 1; }
+  .message2 .table2 {
+    width: 60%;
+    display: flex; }
+    .message2 .table2 tbody {
+      width: 100%;
+      flex: 1; }
+  .message2 .table3 {
+    width: 90%;
+    display: flex; }
+    .message2 .table3 tbody {
+      width: 100%;
+      flex: 1; }
+
+.message3 {
+  width: 100%;
+  padding: 0 18px;
+  margin-bottom: 30px; }
+  .message3 h2 {
+    border-bottom: 1px dashed #e6e6e6; }
+  .message3 p {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0; }
+  .message3 .produce {
+    display: flex;
+    padding: 0 60px;
+    margin-bottom: 40px; }
+    .message3 .produce section {
+      flex: 1;
+      width: 64px;
+      flex-direction: column; }
+      .message3 .produce section aside {
+        width: 64px;
+        height: 64px; }
+      .message3 .produce section article {
+        width: 64px;
+        margin: 6px 0 0 0; }
+  .message3 caption {
+    text-align: center; }
+  .message3 .table-striped {
+    border: 1px solid #e6e6e6; }
+    .message3 .table-striped td, .message3 .table-striped th {
+      text-align: center;
+      line-height: 44px; }
+
+/*# sourceMappingURL=index.css.map */

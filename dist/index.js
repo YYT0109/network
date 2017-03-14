@@ -1,0 +1,1 @@
+var yyt="yyt",text=function(t){return t+"All"},res=text(yyt);document.write(res);
